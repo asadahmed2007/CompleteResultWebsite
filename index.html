@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percentage Calculation</title>
+    <link rel="stylesheet" href="result.css">
+</head>
+<body>
+    <header>
+        <p>check your result</p>
+        <!-- <nav>
+            <ul>
+                <li><a href="index.html"> Calculate Percentage</a></li>
+                <li><a href="weather.html"> Weather Info</a></li>
+                <li><a href="time.html"> Date and Time</a></li>
+            </ul>
+        </nav> -->
+    </header>
+
+   
+    <div class="container">
+        <h1>Percentage Calculator</h1>
+        <form id="marksForm">
+            <label for="obtainedMarks">Obtained Marks:</label>
+            <input type="number" id="obtainedMarks" required>
+            <br><br>
+            <label for="totalMarks">Total Marks:</label>
+            <input type="number" id="totalMarks" required>
+            <br><br>
+            <button type="button" onclick="calculatePercentage()">Calculate Percentage</button>
+        </form>
+        <div id="result">
+            <p id="percentage"></p>
+        </div>
+    </div>
+    <footer>
+         <p>congratulations</p>
+    </footer>
+
+
+    <script src="app.js">
+       
+
+    </script>
+
+</body>
+</html>
